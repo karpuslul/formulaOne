@@ -1,11 +1,13 @@
-package org.example.Entity;
+package org.example.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.UUID;
 
+@Entity
+@Table(name = "pilot")
 public class Pilot {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
 
     @Column(name = "NAME")

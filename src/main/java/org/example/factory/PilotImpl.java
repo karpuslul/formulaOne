@@ -1,6 +1,6 @@
 package org.example.factory;
 
-import org.example.Entity.Pilot;
+import org.example.entity.Pilot;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;

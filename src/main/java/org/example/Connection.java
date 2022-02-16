@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.Entity.Pilot;
+import org.example.entity.Pilot;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
