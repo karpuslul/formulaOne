@@ -1,6 +1,6 @@
 package org.example.factory;
 
-import org.example.Entity.Team;
+import org.example.entity.Team;
 
 public interface TeamFactory {
     String NAME = "formeulaOne_TeamFactory";
